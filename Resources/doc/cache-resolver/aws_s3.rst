@@ -59,7 +59,7 @@ Create Resolver from a Factory
                             key:    "%amazon.s3.key%"
                             secret: "%amazon.s3.secret%"
                         region: "%amazon.s3.region%"
-                        bucket: "%amazon.s3.cache_bucket%"
+                        bucket: "%amazon.s3.bucket%"
                     get_options:
                         Scheme: https
                     put_options:
@@ -81,7 +81,7 @@ Create Resolver from a Factory
                     key:    "%amazon.s3.key%"
                     secret: "%amazon.s3.secret%"
                     region: "%amazon.s3.region%"
-                    bucket: "%amazon.s3.cache_bucket%"
+                    bucket: "%amazon.s3.bucket%"
 
 Create Resolver as a Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
